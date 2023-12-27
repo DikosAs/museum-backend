@@ -6,16 +6,9 @@ from django.shortcuts import redirect
 from django.views.generic import TemplateView
 
 
-def index_re(request):
-    return redirect(reverse('ru:index'))
-
-
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('en/', include('en.urls')),
-    path('ru/', include('ru.urls')),
-    path('ud/', include('ud.urls')),
-    path('', index_re),
+    path('', include('front.urls')),
 ]
 
 if settings.DEBUG:

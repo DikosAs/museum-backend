@@ -5,36 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a066c9c9-c0dd-4f6b-b75b-aa2bf00e781e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ru/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/adv.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/en/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/en/items-menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/ru/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/ru/items-menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/ud/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/ud/items-menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ud/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/migrations/0004_datafromindexpage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/front/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/front/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/front/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/front/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ru/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ru/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ru/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ru/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ru/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ru/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ru/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ru/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/en/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/en/items-menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/items-menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/ru/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/ru/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/ru/items-menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/ru/items-menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/ud/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/ud/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/ud/items-menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/ud/items-menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ud/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ud/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ud/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ud/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ud/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ud/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ud/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ud/views.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,28 +73,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Django Server.server.executor": "Run",
-    "Docker.Dockerfile.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "django.template.preview.state": "SHOW_EDITOR",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/DJANGO/server/templates/ud",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "terminal",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Django Server.server.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.Dockerfile.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/DJANGO/server/templates/ud&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\DJANGO\server\templates\ud" />
@@ -166,7 +175,9 @@
       <workItem from="1702892947780" duration="58000" />
       <workItem from="1702898915326" duration="65000" />
       <workItem from="1703600632078" duration="625000" />
-      <workItem from="1703601270904" duration="3946000" />
+      <workItem from="1703601270904" duration="6969000" />
+      <workItem from="1703661733726" duration="932000" />
+      <workItem from="1703667378957" duration="2280000" />
     </task>
     <servers />
   </component>

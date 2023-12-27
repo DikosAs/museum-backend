@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+CSRF_TRUSTED_ORIGINS = ['https://Dimasik911.pythonanywhere.com']
 
 # Application definition
 
@@ -38,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'front',
-    'ru', 'en', 'ud',
 ]
 
 MIDDLEWARE = [

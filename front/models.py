@@ -48,3 +48,9 @@ class Contacts(models.Model):
     class Meta:
         verbose_name = "контакта"
         verbose_name_plural = "Контакты"
+
+
+class DataFromIndexPage(models.Model):
+    ru_text = models.TextField(verbose_name="Текст на русском")
+    ud_text = models.TextField(verbose_name="Текст на удмуртском")
+    en_text = models.TextField(verbose_name="Текст на английском")

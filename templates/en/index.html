@@ -9,14 +9,14 @@
     {% block nav %}
     <nav>
         <div class="left">
-            <div class="nav-link" id="index"><a href="{% url 'en:index' %}">Main</a></div>
-            <div class="nav-link" id="items-list"><a href="{% url 'en:items' %}">Items</a></div>
+            <div class="nav-link" id="index"><a href="{% url 'en_index' %}">Main</a></div>
+            <div class="nav-link" id="items-list"><a href="{% url 'en_items' %}">Items</a></div>
         </div>
         <div class="right">
             <div class="lang">
                 <div class="nav-link" id="en"><a href="#">Eng</a></div>
-                <div class="nav-link" id="ru"><a href="{% url 'ru:index' %}">Ru</a></div>
-                <div class="nav-link" id="ud"><a href="{% url 'ud:index' %}">Udm</a></div>
+                <div class="nav-link" id="ru"><a href="{% url 'ru_index' %}">Ru</a></div>
+                <div class="nav-link" id="ud"><a href="{% url 'ud_index' %}">Udm</a></div>
             </div>
         </div>
     </nav>
