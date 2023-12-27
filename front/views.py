@@ -6,7 +6,7 @@ from .models import *
 def ru_index(request: WSGIRequest):
     context = {
         'contacts': Contacts.objects.all(),
-        'content': DataFromIndexPage.all()[0]
+        'content': DataFromIndexPage.objects.all()[0]
     }
     return render(request, "ru/index.html", context=context)
 
@@ -22,7 +22,7 @@ def ru_items(request: WSGIRequest):
 def en_index(request: WSGIRequest):
     context = {
         'contacts': Contacts.objects.all(),
-        'content': DataFromIndexPage.all()[0]
+        'content': DataFromIndexPage.objects.all()[0]
     }
     return render(request, "en/index.html", context=context)
 
@@ -38,7 +38,7 @@ def en_items(request: WSGIRequest):
 def ud_index(request: WSGIRequest):
     context = {
         'contacts': Contacts.objects.all(),
-        'content': DataFromIndexPage.all()[0]
+        'content': DataFromIndexPage.objects.all()[0]
     }
     return render(request, "ud/index.html", context=context)
 
