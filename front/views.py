@@ -4,7 +4,10 @@ from .models import *
 
 # Create your views here.
 def ru_index(request: WSGIRequest):
-    context = {"contacts": Contacts.objects.all()}
+    context = {
+        'contacts': Contacts.objects.all(),
+        'content': DataFromIndexPage.get()
+    }
     return render(request, "ru/index.html", context=context)
 
 
@@ -17,7 +20,10 @@ def ru_items(request: WSGIRequest):
 
 
 def en_index(request: WSGIRequest):
-    context = {"contacts": Contacts.objects.all()}
+    context = {
+        'contacts': Contacts.objects.all(),
+        'content': DataFromIndexPage.get()
+    }
     return render(request, "en/index.html", context=context)
 
 
@@ -30,7 +36,10 @@ def en_items(request: WSGIRequest):
 
 
 def ud_index(request: WSGIRequest):
-    context = {"contacts": Contacts.objects.all()}
+    context = {
+        'contacts': Contacts.objects.all(),
+        'content': DataFromIndexPage.get()
+    }
     return render(request, "ud/index.html", context=context)
 
 
