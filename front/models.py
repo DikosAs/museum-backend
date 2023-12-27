@@ -54,3 +54,7 @@ class DataFromIndexPage(models.Model):
     ru_text = models.TextField(verbose_name="Текст на русском")
     ud_text = models.TextField(verbose_name="Текст на удмуртском")
     en_text = models.TextField(verbose_name="Текст на английском")
+
+    class Meta:
+        verbose_name = "информации"
+        verbose_name_plural = "Информация на главной странице"
