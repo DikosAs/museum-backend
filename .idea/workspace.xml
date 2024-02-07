@@ -5,8 +5,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a066c9c9-c0dd-4f6b-b75b-aa2bf00e781e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/api/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/migrations/0002_alter_contacts_options_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/migrations/0003_remove_contacts_img_svg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/frontend/assets/index-Mh9cdz-c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/frontend/assets/index-t5cfLpUu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/frontend/assets/logo_dark_them-lZWDyrGN.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/frontend/assets/not-found-image-LRrcK7_i.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/723ca83b-204d-4cef-88e7-c316cdff004c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/723ca83b-204d-4cef-88e7-c316cdff004c.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/front/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/migrations/0002_objacts_lang_alter_objacts_description_and_more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/migrations/0003_alter_contacts_options_alter_objacts_options_and_more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/migrations/0004_datafromindexpage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/migrations/0005_alter_datafromindexpage_options.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/contacts/vk.com-48_44987.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/autocomplete.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/autocomplete.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/adv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/en/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/en/items-menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/ru/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/ru/items-menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/ud/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/ud/items-menu.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +66,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Dockerfile" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -46,9 +93,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "django.template.preview.state": "SHOW_EDITOR",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "only-api",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/DJANGO/server/static",
+    "last_opened_file_path": "D:/DJANGO/museum_site/api-server/templates/frontend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -60,13 +107,15 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DJANGO\museum_site\api-server\templates\frontend" />
+      <recent name="D:\DJANGO\museum_site\api-server\frontend" />
       <recent name="D:\DJANGO\server\static" />
       <recent name="D:\DJANGO\server\templates\ud" />
       <recent name="D:\DJANGO\server\templates\en" />
-      <recent name="D:\DJANGO\server\ud" />
-      <recent name="D:\DJANGO\server\ru" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DJANGO\museum_site\api-server\templates\frontend" />
+      <recent name="D:\DJANGO\museum_site\api-server" />
       <recent name="D:\DJANGO\server\templates\ru" />
     </key>
   </component>
@@ -119,7 +168,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-7a29c1521ef0-c986f194a52a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.11799.298" />
+        <option value="bundled-python-sdk-5a2391486177-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13763.11" />
       </set>
     </attachedChunks>
   </component>
@@ -141,6 +190,14 @@
       <workItem from="1703601270904" duration="6969000" />
       <workItem from="1703661733726" duration="932000" />
       <workItem from="1703667378957" duration="10193000" />
+      <workItem from="1706950622371" duration="6079000" />
+      <workItem from="1706958971801" duration="4324000" />
+      <workItem from="1706969388497" duration="368000" />
+      <workItem from="1707034193327" duration="17246000" />
+      <workItem from="1707223773382" duration="258000" />
+      <workItem from="1707229715386" duration="4876000" />
+      <workItem from="1707298770471" duration="653000" />
+      <workItem from="1707300854767" duration="5096000" />
     </task>
     <servers />
   </component>
@@ -157,5 +214,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Python.DjangoServer">
+        <watch expression="headers.__len__()" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
