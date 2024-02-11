@@ -56,7 +56,7 @@ def status(request: WSGIRequest):
         return JsonResponse({"status": "400 Bad request"}, status=400)
 
     if not request.user.is_authenticated:
-        return JsonResponse({"status": "401 Unauthorized"}, status=401)
+        return JsonResponse({"status": "200 OK", "username": ""})
 
     return JsonResponse({"status": "200 OK", "username": request.user.username})
 
