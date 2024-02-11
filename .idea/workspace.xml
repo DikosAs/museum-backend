@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="a066c9c9-c0dd-4f6b-b75b-aa2bf00e781e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/723ca83b-204d-4cef-88e7-c316cdff004c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/723ca83b-204d-4cef-88e7-c316cdff004c.xml" afterDir="false" />
+=======
+    <list default="true" id="a066c9c9-c0dd-4f6b-b75b-aa2bf00e781e" name="Changes" comment="Дениска!">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/723ca83b-204d-4cef-88e7-c316cdff004c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/723ca83b-204d-4cef-88e7-c316cdff004c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_02_2024_20_37__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_02_2024_20_37__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> only-api
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,12 +26,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Dockerfile" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main-test" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -48,6 +61,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+<<<<<<< HEAD
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/DJANGO/server/static&quot;,
@@ -59,18 +73,31 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.django.DjangoModulesConfigurable&quot;,
+=======
+    &quot;git-widget-placeholder&quot;: &quot;only-api&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/DJANGO/museum_site/api-server/templates/frontend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+>>>>>>> only-api
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DJANGO\museum_site\api-server\templates\frontend" />
+      <recent name="D:\DJANGO\museum_site\api-server\frontend" />
       <recent name="D:\DJANGO\server\static" />
       <recent name="D:\DJANGO\server\templates\ud" />
       <recent name="D:\DJANGO\server\templates\en" />
-      <recent name="D:\DJANGO\server\ud" />
-      <recent name="D:\DJANGO\server\ru" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DJANGO\museum_site\api-server\templates\frontend" />
+      <recent name="D:\DJANGO\museum_site\api-server" />
       <recent name="D:\DJANGO\server\templates\ru" />
     </key>
   </component>
@@ -117,13 +144,16 @@
     <recent_temporary>
       <list>
         <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="Docker.Dockerfile" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-7a29c1521ef0-c986f194a52a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.11799.298" />
+        <option value="bundled-python-sdk-5a2391486177-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13763.11" />
       </set>
     </attachedChunks>
   </component>
@@ -145,7 +175,28 @@
       <workItem from="1703601270904" duration="6969000" />
       <workItem from="1703661733726" duration="932000" />
       <workItem from="1703667378957" duration="10193000" />
+      <workItem from="1706950622371" duration="6079000" />
+      <workItem from="1706958971801" duration="4324000" />
+      <workItem from="1706969388497" duration="368000" />
+      <workItem from="1707034193327" duration="17246000" />
+      <workItem from="1707223773382" duration="258000" />
+      <workItem from="1707229715386" duration="4876000" />
+      <workItem from="1707298770471" duration="653000" />
+      <workItem from="1707300854767" duration="5096000" />
+      <workItem from="1707495005882" duration="102000" />
+      <workItem from="1707567613919" duration="4307000" />
+      <workItem from="1707637202179" duration="2108000" />
+      <workItem from="1707646779823" duration="2955000" />
     </task>
+    <task id="LOCAL-00001" summary="Дениска!">
+      <option name="closed" value="true" />
+      <created>1707643273699</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707643273699</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,5 +224,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Дениска!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Дениска!" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Python.DjangoServer">
+        <watch expression="headers.__len__()" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
