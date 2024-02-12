@@ -7,7 +7,7 @@ from django.views.generic import TemplateView
 
 
 urlpatterns = [
-    path('', admin.site.urls, name='admin'),
+    path('admin/', admin.site.urls, name='admin'),
     path('api/', include('api.urls')),
 ]
 
