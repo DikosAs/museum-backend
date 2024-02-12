@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-z$*o$d%&+-8s_@_4r@v06&no!uzl-yarn1d^%co(8)^v+1u3-%
 DEBUG = False
 
 # У каких hostname есть право отображения сайта
-ALLOWED_HOSTS = ['https://Dimasik911.pythonanywhere.com']
+ALLOWED_HOSTS = ['*']
 
 # У каких hostname может быть CSRF token
 CSRF_TRUSTED_ORIGINS = ['https://Dimasik911.pythonanywhere.com']
