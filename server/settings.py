@@ -25,12 +25,15 @@ SECRET_KEY = 'django-insecure-z$*o$d%&+-8s_@_4r@v06&no!uzl-yarn1d^%co(8)^v+1u3-%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
+# У каких hostname есть право отображения сайта
 ALLOWED_HOSTS = ['https://Dimasik911.pythonanywhere.com']
 
+# У каких hostname может быть CSRF token
 CSRF_TRUSTED_ORIGINS = ['https://Dimasik911.pythonanywhere.com']
-CORS_ALLOWED_ORIGINS = [
-    'https://zavschoolmuseum.netlify.app',
-]
+
+# CORS политика
+CORS_ALLOW_ALL_ORIGINS = True
+CORS_URLS_REGEX = r"^/api/.*$"
 
 # Application definition
 
