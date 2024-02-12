@@ -23,12 +23,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-z$*o$d%&+-8s_@_4r@v06&no!uzl-yarn1d^%co(8)^v+1u3-%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://Dimasik911.pythonanywhere.com']
 
 CSRF_TRUSTED_ORIGINS = ['https://Dimasik911.pythonanywhere.com']
-CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOWED_ORIGINS = [
+    'https://zavschoolmuseum.netlify.app',
+]
 
 # Application definition
 

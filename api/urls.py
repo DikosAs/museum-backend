@@ -7,5 +7,3 @@ urlpatterns = [
     path('data/contacts/', views.contacts, name='contacts'),
     path('data/items/', views.items, name='items'),
 ]
-
-
