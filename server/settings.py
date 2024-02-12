@@ -33,7 +33,6 @@ CSRF_TRUSTED_ORIGINS = ['https://Dimasik911.pythonanywhere.com']
 
 # CORS политика
 CORS_ALLOW_ALL_ORIGINS = True
-CORS_URLS_REGEX = r"^/api/.*$"
 
 # Application definition
 
