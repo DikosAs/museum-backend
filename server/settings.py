@@ -11,6 +11,10 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
 from pathlib import Path
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -23,13 +27,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-z$*o$d%&+-8s_@_4r@v06&no!uzl-yarn1d^%co(8)^v+1u3-%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = 1
 
 # У каких hostname есть право отображения сайта
 ALLOWED_HOSTS = ['*']
 
-# У каких hostname может быть CSRF token
-CSRF_TRUSTED_ORIGINS = ['https://Dimasik911.pythonanywhere.com']
+# У каких protocols + hostname может быть CSRF token
+CSRF_TRUSTED_ORIGINS = ['https://zavschoolmuseum.pythonanywhere.com']
 
 # CORS политика
 CORS_ALLOW_ALL_ORIGINS = True
@@ -66,7 +70,7 @@ ROOT_URLCONF = 'server.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates'],
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -85,20 +89,14 @@ WSGI_APPLICATION = 'server.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'Dimasik911$default',
-        'USER': 'Dimasik911',
-        'PASSWORD': 'qwerty2023',
-        'HOST': 'Dimasik911.mysql.pythonanywhere-services.com',
+        'ENGINE': os.environ.get('DJANGO_DB_ENGINE', default='django.db.backends.sqlite3'),
+        'NAME': os.environ.get('DB_NAME', default=(BASE_DIR / 'db/db.sqlite3')),
+        'USER': os.environ.get('DB_USER_NAME', default='user'),
+        'PASSWORD': os.environ.get('DB_USER_PASSWORD', default='root'),
+        'HOST': os.environ.get('DB_HOST'),
+        'PORT': os.environ.get('DB_PORT')
     }
 }
 
@@ -145,5 +143,5 @@ STATICFILES_DIRS = [BASE_DIR / "static"]
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-MEDIA_ROOT = (BASE_DIR / 'media/')
 MEDIA_URL = "media/"
+MEDIA_ROOT = (BASE_DIR / 'media/')
