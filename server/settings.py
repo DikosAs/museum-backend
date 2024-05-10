@@ -33,16 +33,17 @@ DEBUG = 1
 ALLOWED_HOSTS = ['*']
 
 # У каких protocols + hostname может быть CSRF token
-CSRF_TRUSTED_ORIGINS = ['https://zavschoolmuseum.pythonanywhere.com']
+CSRF_TRUSTED_ORIGINS = [
+    'https://zavschoolmuseum.pythonanywhere.com',
+]
 
 # CORS политика
 CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_CREDENTIALS = True
 
 # Application definition
 
 INSTALLED_APPS = [
-    'corsheaders',
-
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -51,18 +52,19 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'api',
+
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-
-    'corsheaders.middleware.CorsMiddleware',
 ]
 
 ROOT_URLCONF = 'server.urls'
@@ -93,8 +95,8 @@ DATABASES = {
     'default': {
         'ENGINE': os.environ.get('DJANGO_DB_ENGINE', default='django.db.backends.sqlite3'),
         'NAME': os.environ.get('DB_NAME', default=(BASE_DIR / 'db/db.sqlite3')),
-        'USER': os.environ.get('DB_USER_NAME', default='user'),
-        'PASSWORD': os.environ.get('DB_USER_PASSWORD', default='root'),
+        'USER': os.environ.get('DB_USER_NAME'),
+        'PASSWORD': os.environ.get('DB_USER_PASSWORD'),
         'HOST': os.environ.get('DB_HOST'),
         'PORT': os.environ.get('DB_PORT')
     }
@@ -136,7 +138,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 STATIC_URL = 'static/'
-STATICFILES_DIRS = [BASE_DIR / "static"]
+STATIC_ROOT = (BASE_DIR / "static/")
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
